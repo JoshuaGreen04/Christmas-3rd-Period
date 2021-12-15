@@ -1,0 +1,21 @@
+* {
+    background-color: rgb(110, 211, 223);
+    color: aliceblue;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(98, 173, 182);
+    z-index: -1;
+    background-image: url(https://i.ibb.co/440qSwT/Yule.jpg)
+}
+div:hover {
+    animation-name: holidays;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes holidays {
+    from {width: 100px; height: 100px;}
+    to {width: 600px; height: 350px;}
+}
